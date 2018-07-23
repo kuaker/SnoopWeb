@@ -1,0 +1,6 @@
+pages/HomePage.class
+test/Controller.class
+AutomProjects/SnoopWeb/AppTest.class
+test/LoginTest.class
+pageFactory/AbstractPageObject.class
+test/BaseTest.class
