@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class Controller {
 	
-	@Test
+	
 	public void cEnterServicio() throws InterruptedException {
 		LoginTest snoop = new LoginTest();
 		snoop.LTEnterServicios();
@@ -24,6 +24,22 @@ public class Controller {
 		LoginTest snoop = new LoginTest();
 		snoop.LTSpeakWithConsultant();
 		snoop.LTCompleteForm();
+	}
+	
+	public void CIngresarASnoopWeb() throws InterruptedException {
+		LoginTest snoop = new LoginTest();
+		snoop.LTBuscarWeb();
+		snoop.LTIngresarWeb();
+	}
+	
+	@Test
+	public void CITestSnoopWeb() throws InterruptedException {
+		LoginTest snoop = new LoginTest();
+		snoop.LTBuscarWeb();
+		snoop.LTIngresarWeb();
+		snoop.LTCompleteForm();
+		snoop.LTViewForm();
+		snoop.LTButtonClick();
 	}
 	
 }

@@ -9,8 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BaseTest {
 	//Chrome
-	public static final String URL_TECHNETTS = "https://www.snoopconsulting.com/";
-	public static final String WEB_DRIVER_PATH ="/home/fer/eclipse-workspace/SnoopWeb/lib/chromedriver";
+	public static final String URL_TECHNETTS = "https://google.com.ar/";
+	public static final String WEB_DRIVER_PATH ="./lib/chromedriver";
 	public static final String WEB_DRIVER_CHROME_DRIVER_PROPERTY = "webdriver.chrome.driver"; 
 	public static WebDriver driver;
 	public static WebDriverWait driverWait;

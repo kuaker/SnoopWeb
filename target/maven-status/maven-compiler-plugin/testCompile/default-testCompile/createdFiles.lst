@@ -1,6 +1,12 @@
+module/Archives.class
+pages/Csv.class
+pages/ReadFile.class
 pages/HomePage.class
-test/Controller.class
-AutomProjects/SnoopWeb/AppTest.class
-test/LoginTest.class
 pageFactory/AbstractPageObject.class
 test/BaseTest.class
+pages/MovilSeguros.class
+test/Controller.class
+pages/Archivos.class
+pages/Contacto.class
+AutomProjects/SnoopWeb/AppTest.class
+test/LoginTest.class

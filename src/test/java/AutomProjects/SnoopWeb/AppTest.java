@@ -17,5 +17,13 @@ public class AppTest {
 		Controller pruebaUnitaria = new Controller();
 		pruebaUnitaria.cReadSpan();
 	}
+	
+	
+	@Test
+	public void TC02TestLanding() throws InterruptedException {
+		Controller pruebaUnitaria = new Controller();
+		pruebaUnitaria.CITestSnoopWeb();
+	}
+	
     
 }

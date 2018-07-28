@@ -57,4 +57,23 @@ public class HomePage extends AbstractPageObject{
 	}
 	
 
+	public void BuscarWeb() throws InterruptedException {
+		String fElemen = "aplicaciones app seguros";
+		WebElement bar = driver.findElement(By.id("lst-ib"));
+				bar.sendKeys(fElemen);
+				TimeUnit.SECONDS.sleep(2);
+				driver.findElement(By.name("btnK")).click();		
+	}
+	
+	public void CliquearWeb() {
+		driver.findElement(By.xpath("//*[@id=\"vn1s0p1c0\"]")).click(); //Primer resultado de la búsqueda de google.
+	}
+	
+	public void ValidarSpan() {
+		WebElement wSpan = driver.findElement(By.xpath("/html/body/div[2]/div/div[1]/div[2]/div/div[2]/div[1]/div/h3/span"));
+				String span = wSpan.getText();
+				System.out.println(span);
+	}
+	
+
 }
